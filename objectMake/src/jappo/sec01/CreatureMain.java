@@ -7,6 +7,7 @@ public class CreatureMain {
 		//방법1. 변수로 호출
 		Turtle turtle = new Turtle();
 		Jan jan = new Jan();
+		Pigeon pigeon = new Pigeon();
 		
 		//방법2. Animal 타입 변수로 자동 타입 변환
 		Animal animal = null;
@@ -14,8 +15,13 @@ public class CreatureMain {
 		
 		turtle.bite();
 		jan.coding();
+		jan.twoWalk();
+		pigeon.cry();
+		pigeon.bite();
+		
 	
 
 	}
+	
 
 }

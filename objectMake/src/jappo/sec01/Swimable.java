@@ -7,4 +7,6 @@ public interface Swimable {
 	int BREASTSTROKE = 3; //평영
 	int BUTTERFLYSTRKE = 4; //접영
 	
+
+	
 }
